@@ -33,7 +33,7 @@ sudo apt install python3 metasploit-framework mingw-w64 -y
 ```
 # Installation
 ```bash
-git clone https://github.com/YourUsername/DefenderDropper.git
+git clone https://github.com/HackScaleTeam/DefenderDropper.git
 cd DefenderDropper
 ```
 
