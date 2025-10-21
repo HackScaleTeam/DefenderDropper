@@ -136,7 +136,7 @@ TwoSevenOneT for the original DefenderWrite research
 The cybersecurity community for continuous improvement
 
 # License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/HackScaleTeam/DefenderDropper/LICENSE). file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/HackScaleTeam/DefenderDropper/blob/main/LICENSE). file for details.
 
  Security is a shared responsibility. Use this tool wisely and ethically.
 
