@@ -3,6 +3,10 @@
 **Advanced DLL Hijacking Payload Generator Using Windows Defender Vulnerabilities**
 
 ![Banner](assets/banner.jpg)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=round)](https://github.com/HackScaleTeam/DefenderDropper/issues)
+[![Twitter URL](https://img.shields.io/twitter/follow/HackScale?style=plastic&logo=twitter)](https://twitter.com/_hackscale_)
+[![Twitter URL](https://img.shields.io/twitter/follow/Samx86?style=plastic&logo=twitter)](https://twitter.com/sam_X86_)
+[![YouTube URL](https://img.shields.io/youtube/channel/views/UCGY_Cnhao2lebIIYYb2jovA?style=plastic&logo=youtube)](https://www.youtube.com/channel/UCGY_Cnhao2lebIIYYb2jovA)
 [![Python](https://img.shields.io/badge/Python-3.6%2B-blue)](https://python.org)
 [![Metasploit](https://img.shields.io/badge/Metasploit-Compatible-red)](https://metasploit.com)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
