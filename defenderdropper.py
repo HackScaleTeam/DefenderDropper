@@ -271,7 +271,7 @@ int main() {{
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Usage: python3 build.py LHOST LPORT [-o payload.exe]")
+        print("Usage: python3 defenderdropper.py LHOST LPORT [-o payload.exe]")
         sys.exit(1)
     main()
       
